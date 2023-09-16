@@ -1,56 +1,87 @@
-# C Programming Learning Repository 🚀
+# C Programming Basics
 
-Welcome to my C programming learning journey! This repository is a place where I document my progress as I dive into the world of C programming. Feel free to explore my coding adventures and follow along with my learning process.
+This README provides a simple overview of basic C programming concepts and data types. It aims to help beginners understand the fundamental building blocks of C programming.
 
-![C Programming Logo](https://e1.pxfuel.com/desktop-wallpaper/62/435/desktop-wallpaper-c-in-embedded-systems-programming-c-programming-language.jpg)
+## Introduction
 
-## What's Inside?
+C is a widely used programming language known for its simplicity and versatility. It's important to grasp some basic concepts to get started with C programming.
 
-- 📂 **src:** This directory contains all the C programs I've written during my learning journey. Each program is a step forward in my understanding of C.
+## Integer Data Types
 
-- 📁 **resources:** Here, I store helpful resources, cheat sheets, and notes related to C programming that have been invaluable to me.
+In C, we have two main categories of integers: **signed** and **unsigned**.
 
-- 📚 **docs:** In this section, you'll find documentation for my projects, explanations of key concepts, and any technical guides I create along the way.
+### Signed Integers
 
-## Learning Progress
+1. **short** - `%hi`
 
-I've structured my learning into different phases. Here's an overview:
+   - Represents short integers.
+   - Example: `short a = 2;`
 
-- **Phase 1:** Basics of C Programming
+2. **int** - `%d`
 
-  - [x] Hello, World!
-  - [x] Variables and Data Types
-  - [ ] ...
+   - Represents regular integers.
+   - Example: `int b = 23;`
 
-- **Phase 2:** Control Flow
+3. **long** - `%ld`
 
-  - [ ] Conditional Statements
-  - [ ] Loops
-  - [ ] ...
+   - Represents long integers.
+   - Example: `long c = 5647l;`
 
-- **Phase 3:** Functions and Modular Programming
+4. **long long** - `%lld`
+   - Represents very long integers.
+   - Example: `long long d = 65843974ll;`
 
-  - [ ] Function Basics
-  - [ ] Parameters and Arguments
-  - [ ] ...
+### Unsigned Integers
 
-- **Phase 4:** Advanced Topics
+Unsigned integers represent only non-negative values.
 
-  - [ ] Pointers and Memory Management
-  - [ ] Structures and File I/O
-  - [ ] ...
+1. **unsigned short** - `%hu`
 
-- **Phase 5:** Real-World Projects
-  - [ ] Small Applications
-  - [ ] Coding Challenges
-  - [ ] ...
+   - Example: `unsigned short us = 267;`
 
-## Getting Started
+2. **unsigned int** - `%u`
 
-If you're also interested in learning C programming, feel free to fork this repository or clone it to your local machine. You can follow my progress and use the code and resources provided here as references for your own learning journey.
+   - Example: `unsigned int ui = 3432;`
 
-## Contributions and Feedback
+3. **unsigned long** - `%lu`
 
-I welcome contributions, suggestions, and feedback from the community. If you spot any errors, have suggestions for improvement, or want to collaborate on a project, please feel free to open an issue or submit a pull request. Let's learn and grow together!
+   - Example: `unsigned long ul = 357646;`
 
-Happy Coding! 💻
+4. **unsigned long long** - `%llu`
+   - Example: `unsigned long long ull = 357646;`
+
+## Octal and Hexadecimal Numbers
+
+### Octal Numbers
+
+Octal numbers are base-8 numbers, and they are prefixed with '0'.
+
+Example:
+
+```c
+int octa = 0456; // Represents octal number 0456
+```
+
+### Hexadecimal Numbers
+
+Hexadecimal Numbers are base-16 numbers, and they are prefixed with '0x' or '0X'.
+
+Example:
+
+```c
+int hex = 0Xfff; // Represents hexadecimal number 0xfff
+```
+
+## Signed vs. Unsigned Data Types
+
+### Signed Data Types
+
+- Can represent both positive and negative values.
+- Use one bit to represent the sign (positive or negative) and the remaining bits for magnitude.
+
+### Unsigned Data Types
+
+- Can represent only non-negative (positive) values.
+- Do not use any bits for sign; all bits are used for magnitude.
+
+This basic overview should help you start your journey into C programming. Experiment with these concepts to gain hands-on experience and explore more advanced topics as you become more comfortable with the language. Happy coding!

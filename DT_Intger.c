@@ -38,6 +38,19 @@ printf("i am long long - %lld\n", d);
 
 // 1) unsigned short -> idendifire: %hu
 unsigned short us = 267;
+printf("i am unsinged short. - %hu\n", us);
+
+// 2) unsigned int  -> idendifire: %u
+unsigned int ui = 3432;
+printf("Iam unsigner int. - %u\n", ui);
+
+// 3) unsigned long  -> idendifire: %lu
+unsigned long ul = 357646;
+printf("Iam unsigner int. - %lu\n", ul);
+
+// 4) unsigned long long  -> idendifire: %llu
+unsigned long long ull = 357646;
+printf("Iam unsigner int. - %llu\n", ull);
 printf("i am unsinged short. - %hu", us)
 
 // 2) unsigned int  -> idendifire: %u
