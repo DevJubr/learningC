@@ -23,7 +23,12 @@ float x = 7.9f;
 
 // no converTion
 int Nc = x+y+z;
-printf("result (no converTion): %d\n");
+printf("result (no converTion): %d\n", Nc); // ans: 13
+
+// with conversiton
+  int Yc = (int)x+(int)y+(int)z;
+  printf("result: %d\n", Yc); // ans 12
+
 
   return 0;
 }
