@@ -85,3 +85,36 @@ int hex = 0Xfff; // Represents hexadecimal number 0xfff
 - Do not use any bits for sign; all bits are used for magnitude.
 
 This basic overview should help you start your journey into C programming. Experiment with these concepts to gain hands-on experience and explore more advanced topics as you become more comfortable with the language. Happy coding!
+
+## C Program: Conditional Printing with Boolean Variable
+
+```c
+#include <stdio.h>
+#include <stdbool.h>
+
+int main(void) {
+    bool isActive = true;
+
+    if (isActive) {
+        printf("yes!");
+    } else {
+        printf("unActive");
+    }
+
+    return 0;
+}
+```
+
+A simple C program that demonstrates conditional printing based on the value of a boolean variable. The program uses the C standard library `<stdio.h>` for input and output operations and the `<stdbool.h>` header for the boolean data type.
+
+## Program Description
+
+The program defines a boolean variable named `isActive` and initializes it with the value `true`. It then uses an `if` statement to check the value of `isActive`. If `isActive` is `true`, it prints "yes!" to the console. Otherwise, it prints "unActive."
+
+## Boolean Data Type in C
+
+In C, the `<stdbool.h>` header introduces the `bool` data type, which can hold either `true` or `false` values. This data type is particularly useful for creating conditional logic in your programs, as demonstrated in this example.
+
+```
+
+```
