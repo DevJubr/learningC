@@ -14,5 +14,16 @@ int main (void) {
   int rF = 'a' + 2;
   printf("result of Rf + 2 : %f\n", (float)rF);
 
+
+// ------------- another exmpl -----------
+
+float z = 3.5f;
+float y = 2.1f;
+float x = 7.9f;
+
+// no converTion
+int Nc = x+y+z;
+printf("result (no converTion): %d\n");
+
   return 0;
 }
