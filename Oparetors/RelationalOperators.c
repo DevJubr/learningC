@@ -26,5 +26,9 @@ printf("a is equal to b - %d\n", gtt);
 bool ltort = a <= b;
 printf("a is equal to b - %d\n", ltort);
 
+// >= (greater than or equal to): Checks if the left operand is greater than or equal to the right operand.
+bool gttoe = b >= a;
+printf("a is equal to b - %d\n", gttoe);
+
     return 0;
 }
