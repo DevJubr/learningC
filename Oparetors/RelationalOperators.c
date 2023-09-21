@@ -16,19 +16,19 @@ printf("a is not equal to b - %d\n", net);
 
 // < (less than): Checks if the left operand is less than the right operand.
 bool lst = a < b;
-printf("a is equal to b - %d\n", lst);
+printf("a is less than) b - %d\n", lst);
 
 // > (greater than): Checks if the left operand is less than the right operand.
 bool gtt = b > a;
-printf("a is equal to b - %d\n", gtt);
+printf("b is greater than a - %d\n", gtt);
 
 // <= (less than or equal to): Checks if the left operand is less than or equal to the right operand.
 bool ltort = a <= b;
-printf("a is equal to b - %d\n", ltort);
+printf("a is less than or equal to b - %d\n", ltort);
 
 // >= (greater than or equal to): Checks if the left operand is greater than or equal to the right operand.
 bool gttoe = b >= a;
-printf("a is equal to b - %d\n", gttoe);
+printf("b is greater than or equal to a - %d\n", gttoe);
 
     return 0;
 }
