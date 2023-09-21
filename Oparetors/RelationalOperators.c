@@ -10,5 +10,9 @@ int b = 20;
 bool et = a == b;
 printf("a is equal to b - %d\n", et);
 
+// ! = (not equal to): Checks if two operands are not equal.
+bool net = a != b;
+printf("a is equal to b - %d\n", net);
+
     return 0;
 }
