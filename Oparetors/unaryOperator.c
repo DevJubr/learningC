@@ -36,7 +36,7 @@ int main() {
     int a = (x++, y++); // a will be 10 (result of the rightmost expression), x will be 11, and y will be 22
     
     // Print the results
-    // printf("Unary Plus: %d\n", unary_plus);
+    printf("Unary Plus: %d\n", unary_plus);
     printf("Unary Minus: %d\n", unary_minus);
     printf("Pre Increment: %d\n", pre_increment);
     printf("Post Increment: %d\n", post_increment);
