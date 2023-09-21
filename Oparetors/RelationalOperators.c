@@ -15,8 +15,13 @@ bool net = a != b;
 printf("a is equal to b - %d\n", net);
 
 // < (less than): Checks if the left operand is less than the right operand.
-bool lst = a > b;
+bool lst = a < b;
 printf("a is equal to b - %d\n", lst);
+
+// > (greater than): Checks if the left operand is less than the right operand.
+bool gtt = a > b;
+printf("a is equal to b - %d\n", gtt);
+
 
     return 0;
 }
