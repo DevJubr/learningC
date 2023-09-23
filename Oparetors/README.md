@@ -57,6 +57,24 @@ The ternary operator is unique as it takes three operands and is often used for 
 
 - The format is: `condition ? expression_if_true : expression_if_false`.
 
+```c
+#include <stdio.h>
+
+int main() {
+    int x = 10;
+    int y = 20;
+    int max;
+
+    max = (x > y) ? x : y;
+
+    printf("The maximum value is: %d\n", max);
+
+    return 0;
+}
+
+
+```
+
 Understanding these operators is essential for writing effective and efficient C code.
 
 Feel free to modify and use this README for your Git repository documentation.
