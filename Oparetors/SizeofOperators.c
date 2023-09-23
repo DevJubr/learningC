@@ -11,6 +11,6 @@ int main () {
 
   printf("Sizeof char - %d\n", (int)sizeof(c));
   printf("Sizeof short - %d\n", (int)sizeof(s));
-
+ printf("Sizeof int - %d\n", (int)sizeof(i));
     return 0;
 }
