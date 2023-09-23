@@ -75,6 +75,34 @@ int main() {
 
 ```
 
+## `sizeof` Operator in C
+
+In C programming, the `sizeof` operator is used to determine the size, in bytes, of a data type or an object. This operator is incredibly useful when you need to allocate memory dynamically, work with arrays, or understand the memory layout of your data structures.
+
+## Basic Syntax
+
+The basic syntax of the `sizeof` operator is as follows:
+
+````c
+sizeof(type);
+
+```c
+#include <stdio.h>
+
+int main() {
+    int integerType;
+    char charType;
+    double doubleType;
+
+    printf("Size of int: %zu bytes\n", sizeof(integerType));
+    printf("Size of char: %zu bytes\n", sizeof(charType));
+    printf("Size of double: %zu bytes\n", sizeof(doubleType));
+
+    return 0;
+}
+
+````
+
 Understanding these operators is essential for writing effective and efficient C code.
 
 Feel free to modify and use this README for your Git repository documentation.
