@@ -12,5 +12,7 @@ int main () {
   printf("Sizeof char - %d\n", (int)sizeof(c));
   printf("Sizeof short - %d\n", (int)sizeof(s));
  printf("Sizeof int - %d\n", (int)sizeof(i));
+  printf("Sizeof long long - %d\n", (int)sizeof(ll));
+ printf("Sizeof long - %d\n", (int)sizeof(l));
     return 0;
 }
