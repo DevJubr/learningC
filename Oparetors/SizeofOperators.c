@@ -10,6 +10,7 @@ int main () {
 
 
   printf("Sizeof char - %d\n", (int)sizeof(c));
+  printf("Sizeof short - %d\n", (int)sizeof(s));
 
     return 0;
 }
