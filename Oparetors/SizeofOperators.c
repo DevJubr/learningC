@@ -9,10 +9,10 @@ int main () {
   long long ll = 2343ll;
 
 
-  printf("Sizeof char - %d\n", (int)sizeof(c));
-  printf("Sizeof short - %d\n", (int)sizeof(s));
- printf("Sizeof int - %d\n", (int)sizeof(i));
-  printf("Sizeof long long - %d\n", (int)sizeof(ll));
- printf("Sizeof long - %d\n", (int)sizeof(l));
+  printf("In bytes Sizeof char - %d\n", (int)sizeof(c));
+  printf("In bytes Sizeof short - %d\n", (int)sizeof(s));
+ printf("In bytes Sizeof int - %d\n", (int)sizeof(i));
+  printf("In bytes Sizeof long long - %d\n", (int)sizeof(ll));
+ printf("In bytes Sizeof long - %d\n", (int)sizeof(l));
     return 0;
 }
