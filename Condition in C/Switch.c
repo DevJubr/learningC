@@ -32,3 +32,9 @@ int main() {
 
     return 0;
 }
+
+//  -  We use a variable dayNumber to represent the day you want to map.
+//  -  The switch statement evaluates the value of dayNumber.
+//  -  Each case label corresponds to a specific day number from 1 to 7.
+//  -  Depending on the value of dayNumber, the corresponding day name will be printed.
+//  -  If dayNumber does not match any of the specified cases, the default case will execute and print "Invalid day number."
