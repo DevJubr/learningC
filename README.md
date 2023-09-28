@@ -20,30 +20,30 @@ I've structured my learning into different phases. Here's an overview:
 
   - [x] Hello, World!
   - [x] Variables and Data Types
-  - [ ] ...
+  - [x] etc.
 
 - **Phase 2:** Control Flow
 
-  - [ ] Conditional Statements
+  - [x] Conditional Statements
   - [ ] Loops
-  - [ ] ...
+  - [ ] etc.
 
 - **Phase 3:** Functions and Modular Programming
 
   - [ ] Function Basics
   - [ ] Parameters and Arguments
-  - [ ] ...
+  - [ ] etc.
 
 - **Phase 4:** Advanced Topics
 
   - [ ] Pointers and Memory Management
   - [ ] Structures and File I/O
-  - [ ] ...
+  - [ ] etc.
 
 - **Phase 5:** Real-World Projects
   - [ ] Small Applications
   - [ ] Coding Challenges
-  - [ ] ...
+  - [ ] etc.
 
 ## Getting Started
 
