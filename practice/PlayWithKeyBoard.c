@@ -11,7 +11,12 @@ if( num >= 48 && num <= 57){
 } else if(num >= 65 && num <= 90){
   printf("%c is a Uppercase letter", num);
 
+} else if (num >= 97 && num <= 122)
+{
+   printf("%c is a lowercase letter", num);
+
 }
+
 
 
 }
