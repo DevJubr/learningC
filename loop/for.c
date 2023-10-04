@@ -4,7 +4,7 @@ int main (void) {
 int i;
 for (i = 0; i <= 40; i++)
 {
-  printf("%d", i);
+  printf("%d - juba - \n", i);
 }
 
 
