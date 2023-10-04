@@ -15,7 +15,7 @@ int main (void) {
   {
     printf("right gase!");
   } else{
-    printf("rong gase!");
+    printf("rong gase! the number was %d", pikkedNumber);
 
   }
   
