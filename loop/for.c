@@ -9,7 +9,15 @@ for (i = 0; i <= 40; i++)
 
 // lets find a odd oand even number
 
-
+  for ( i = 0; i <= 10; i++)
+  {
+   if (i%2 == 0)
+   {
+    printf("%d", i);
+   } 
+   
+  }
+  
 
   return 0;
 }
