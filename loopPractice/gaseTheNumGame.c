@@ -24,14 +24,12 @@ int main () {
       break;
     }
 
-    if (notAble)
-    {
-      printf("u not able to gase, fuck u!");
-    }
-    
     chance--;
   } while(chance > 0);
-
+  
+    if (notAble){
+      printf("u not able to gase, fuck u! the number was - %d\n", randomNum);
+    }
   
   return 0;
 
