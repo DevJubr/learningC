@@ -5,7 +5,8 @@
 
 int main () {
 
-  int randomNum, userInput;
+  int randomNum, userInput, chance = 3;
+  bool notAble = true;
 
   time_t tim;
 
@@ -19,9 +20,17 @@ int main () {
   
     if(randomNum == userInput){
       printf("u cs the correct number.");
+      notAble = false;
       break;
     }
-  } while(true);
+
+    if (notAble)
+    {
+      printf("u not able to gase, fuck u!");
+    }
+    
+    chance--;
+  } while(chance > 0);
 
   
   return 0;
