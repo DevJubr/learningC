@@ -25,7 +25,7 @@ I've structured my learning into different phases. Here's an overview:
 - **Phase 2:** Control Flow
 
   - [x] Conditional Statements
-  - [ ] Loops
+  - [x] Loops
   - [ ] etc.
 
 - **Phase 3:** Functions and Modular Programming
