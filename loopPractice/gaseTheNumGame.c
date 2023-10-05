@@ -15,7 +15,7 @@ int main () {
 
   do {
 
-  printf("entr ur number:");
+  printf("entr ur number (chence available: %d):", chance);
   scanf("%d", &userInput);
   
     if(randomNum == userInput){
@@ -26,7 +26,7 @@ int main () {
 
     chance--;
   } while(chance > 0);
-  
+
     if (notAble){
       printf("u not able to gase, fuck u! the number was - %d\n", randomNum);
     }
