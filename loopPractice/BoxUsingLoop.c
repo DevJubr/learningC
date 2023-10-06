@@ -2,11 +2,12 @@
 
 int main (void) {
 
-  int siz = 13;
+  int row = 17;
+  int col = 8;
   int i,j;
 
-  for(i = 0; i<siz; i++){
-    for (j= i; j < siz; j++)
+  for(i = 0; i<col; i++){
+    for (j= 0; j < row; j++)
     {
       printf("*");
     }
