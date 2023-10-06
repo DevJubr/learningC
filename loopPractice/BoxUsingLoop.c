@@ -8,7 +8,7 @@ int main (void) {
   // *********** 
 
   int col = 5;
-  int row = 10;
+  int row = 4;
 
   int i,j;
 
@@ -26,15 +26,28 @@ int main (void) {
   // * * *
   // * * * *
 
-  for(i=0; i<col; i++) {
+  // for(i=0; i<col; i++) {
 
-    for(j=0; j <i; j++){
+  //   for(j=0; j <i; j++){
+  //     printf(" * ");
+  //   }
+
+  // printf("\n");
+  // }
+
+  // -> Now, we will create this box shape using loops.
+  // * * * *
+  // * * *
+  // * *
+  // *
+
+  for(i = 0; i < col; i++){
+    for(j=i; j < row; j++){
       printf(" * ");
     }
-    
-  printf("\n");
-  }
 
+    printf("\n");
+  }
 
     return 0;
 }
