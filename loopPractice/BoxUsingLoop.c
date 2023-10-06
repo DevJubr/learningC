@@ -1,19 +1,27 @@
 #include <stdio.h>
 
 int main (void) {
+  // -> Now, we will create this box shape using loops.
+  // ***********
+  // ***********
+  // ***********
+  // *********** 
 
-  int row = 17;
-  int col = 8;
+  int col = 5;
+  int row = 10;
+
   int i,j;
 
-  for(i = 0; i<col; i++){
-    for (j= 0; j < row; j++)
-    {
-      printf("*");
+  for (i=0; i< col; i++) {
+    for(j=0; j<row; j++) {
+        printf("*");
     }
-    
     printf("\n");
+
   }
+
+
+
 
     return 0;
 }
