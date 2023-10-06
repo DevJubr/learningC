@@ -13,13 +13,13 @@ int main (void) {
 
   int i,j,k;
 
-  // for (i=0; i< col; i++) {
-  //   for(j=0; j<row; j++) {
-  //       printf("*");
-  //   }
-  //   printf("\n");
+  for (i=0; i< col; i++) {
+    for(j=0; j<row; j++) {
+        printf("*");
+    }
+    printf("\n");
 
-  // }
+  }
 
 // -> Now, we will create this shape using loops.
   // *
@@ -27,14 +27,14 @@ int main (void) {
   // * * *
   // * * * *
 
-  // for(i=0; i<col; i++) {
+  for(i=0; i<col; i++) {
 
-  //   for(j=0; j <i; j++){
-  //     printf(" * ");
-  //   }
+    for(j=0; j <i; j++){
+      printf(" * ");
+    }
 
-  // printf("\n");
-  // }
+  printf("\n");
+  }
 
   // -> Now, we will create this box shape using loops.
   // * * * *
@@ -42,13 +42,13 @@ int main (void) {
   // * *
   // *
 
-  // for(i = 0; i < col; i++){
-  //   for(j=i; j < row; j++){
-  //     printf(" * ");
-  //   }
+  for(i = 0; i < col; i++){
+    for(j=i; j < row; j++){
+      printf(" * ");
+    }
 
-  //   printf("\n");
-  // }
+    printf("\n");
+  }
 
 
   // -> Now, we will create this box shape using loops.
