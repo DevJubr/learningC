@@ -2,10 +2,15 @@
 
 int main (void) {
 
-  int siz = 5;
-  int i = 0;
+  int siz = 13;
+  int i,j;
 
-  for(i; i<siz; i++){
+  for(i = 0; i<siz; i++){
+    for (j= i; j < siz; j++)
+    {
+      printf("*");
+    }
+    
     printf("\n");
   }
 
