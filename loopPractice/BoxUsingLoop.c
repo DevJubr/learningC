@@ -9,7 +9,7 @@ int main (void) {
 
   int col = 5;
   int row = 4;
-  int n = 14;
+  int n = 5;
 
   int i,j,k;
 
@@ -64,6 +64,7 @@ int main (void) {
         // Print spaces for alignment
         for (int j = 1; j <= n - i; j++) {
             printf(" ");
+       
         }
 
         // Print asterisks
@@ -71,11 +72,26 @@ int main (void) {
             printf("* ");
         }
 
+
+
         // Move to the next line
         printf("\n");
     }
 
+    for(int i = 1; i <=n; i++){
+      for(int j =1; j<= i; j++){
+        printf(" ");
+      }
 
+      for(int k = 1; k<=n - i ; k++){
+         printf("* ");
+      }
+
+       printf("\n");
+    }
+
+ 
 
     return 0;
 }
+
