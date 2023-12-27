@@ -26,13 +26,13 @@ I've structured my learning into different phases. Here's an overview:
 
   - [x] Conditional Statements
   - [x] Loops
-  - [ ] etc.
+  - [x] etc.
 
 - **Phase 3:** Functions and Modular Programming
 
-  - [ ] Function Basics
-  - [ ] Parameters and Arguments
-  - [ ] etc.
+  - [x] Function Basics
+  - [x] Parameters and Arguments
+  - [x] etc.
 
 - **Phase 4:** Advanced Topics
 
