@@ -73,7 +73,44 @@ Output:
 Sum is: 40
 ```
 
-Remember, functions are powerful tools in C programming. They allow us to create modular, efficient, and well-organized code. Feel free to explore more complex functions and unleash your creativity! 🚀.
+##Let's explore the concept of **`void`** in the C programming language.
+
+1. **Void as a Return Type**:
+
+   - In C, **`void`** serves as a return type for functions.
+   - When a function has a **`void`** return type, it means the function does not return any value.
+   - Example:
+     ```c
+     void printCompanyInfo() {
+         // Function to print company information
+         // No return value
+         // ...
+     }
+     ```
+   - In the above example, the **`printCompanyInfo`** function doesn't return anything; it simply performs a task (printing company details).
+
+2. **Void Functions**:
+
+   - A **void function** is one that doesn't return a value.
+   - Although it lacks a return value, it can still use the **`return;`** statement to exit at any point.
+   - Example:
+     ```c
+     int sumFirst10Numbers(void) {
+         int sum = 0;
+         for (int i = 1; i <= 10; ++i)
+             sum += i;
+         return sum;
+     }
+     ```
+   - In this case, the **`sumFirst10Numbers`** function calculates the sum of the first 10 numbers but doesn't accept any parameters.
+
+3. **Summary**:
+   - **`void`** represents "no type," "no value," or "no parameters," depending on the context.
+   - It's a versatile keyword used for functions, function parameters, and pointers.
+
+Remember, is a powerful tool in C, allowing flexibility and generality in various scenarios.
+
+Remember, **`void`** and **`functions`** are powerful tools in C programming. They allow us to create modular, efficient, and well-organized code. Feel free to explore more complex functions and unleash your creativity! 🚀.
 
 Source:
 (1) C Functions - GeeksforGeeks. https://www.geeksforgeeks.org/c-functions/.
